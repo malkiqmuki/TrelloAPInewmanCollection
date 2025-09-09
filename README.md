@@ -13,6 +13,9 @@ The goal is to demonstrate how to test REST APIs in a CI/CD pipeline.
 ![Postman Results](./postman_request_executed.png)
 ![Postman Results](./postman_request.png)
 
+### 📌 Trello Board Example
+![Trello Board](./trello_board_created.png)
+
 ---
 
 ## 📖 Description
@@ -101,6 +104,7 @@ Automated validation of Trello REST API endpoints
 Regression safety via repeatable Newman runs
 
 CI/CD integration for continuous testing
+
 
 
 
