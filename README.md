@@ -10,6 +10,7 @@ The goal is to demonstrate how to test REST APIs in a CI/CD pipeline.
 
 ## 📊 Screenshots & Results
 ### 🚀 Postman Collection Runner
+![Postman Results](./postman_request_executed.png)
 ![Postman Results](./postman_request.png)
 
 ---
@@ -100,6 +101,7 @@ Automated validation of Trello REST API endpoints
 Regression safety via repeatable Newman runs
 
 CI/CD integration for continuous testing
+
 
 
 
