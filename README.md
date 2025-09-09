@@ -34,29 +34,44 @@ The goal is to demonstrate how to test REST APIs in a CI/CD pipeline.
    npm install -g newman
 
 3.**Set up environment variables**
+
 Create a trello.postman_environment.json file with your API key and token:
+
 {
   "id": "env-id",
+  
   "name": "Trello",
-  "values": [
+  
+  "values":
+  [
     { "key": "apiKey", "value": "YOUR_API_KEY", "enabled": true },
+    
     { "key": "apiToken", "value": "YOUR_API_TOKEN", "enabled": true },
+    
     { "key": "baseUrl", "value": "https://api.trello.com/1", "enabled": true }
   ]
 }
 
 ▶️ Usage
+
 Run the tests with:
+
 newman run TrelloAPI.postman_collection.json -e trello.postman_environment.json
 
 Example output:
+
 → Create a new board
+
   POST https://api.trello.com/1/boards [200 OK]
+  
   ✓ Response time < 1000ms
+  
   ✓ Board ID is returned
 
 → Add card to list
+
   POST https://api.trello.com/1/cards [200 OK]
+  
   ✓ Card created successfully
 
 🔄 CI/CD Integration
@@ -76,3 +91,4 @@ Automated validation of Trello REST API endpoints
 Regression safety via repeatable Newman runs
 
 CI/CD integration for continuous testing
+
