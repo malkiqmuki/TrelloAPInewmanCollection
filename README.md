@@ -1,5 +1,10 @@
 # 📌 Trello API – Newman Collection
 
+![Postman](https://img.shields.io/badge/tested%20with-Postman-orange)
+![Newman](https://img.shields.io/badge/runner-Newman-lightgrey)
+![GitHub last commit](https://img.shields.io/github/last-commit/malkiqmuki/TrelloAPInewmanCollection)
+![GitHub repo size](https://img.shields.io/github/repo-size/malkiqmuki/TrelloAPInewmanCollection)
+
 This project contains an **API test collection** for [Trello](https://developer.atlassian.com/cloud/trello/rest/), executed with **Postman** and automated using **Newman**.  
 The goal is to demonstrate how to test REST APIs in a CI/CD pipeline.
 
@@ -91,4 +96,5 @@ Automated validation of Trello REST API endpoints
 Regression safety via repeatable Newman runs
 
 CI/CD integration for continuous testing
+
 
