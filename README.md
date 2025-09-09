@@ -8,6 +8,10 @@
 This project contains an **API test collection** for [Trello](https://developer.atlassian.com/cloud/trello/rest/), executed with **Postman** and automated using **Newman**.  
 The goal is to demonstrate how to test REST APIs in a CI/CD pipeline.
 
+## 📊 Screenshots & Results
+### 🚀 Postman Collection Runner
+![Postman Results](./postman_request.png)
+
 ---
 
 ## 📖 Description
@@ -96,5 +100,6 @@ Automated validation of Trello REST API endpoints
 Regression safety via repeatable Newman runs
 
 CI/CD integration for continuous testing
+
 
 
